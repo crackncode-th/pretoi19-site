@@ -17,3 +17,11 @@
 .page-title {
 	@apply text-4xl font-bold sm:text-6xl;
 }
+
+.rwidth {
+	@apply w-full lg:w-4/5 xl:w-3/4 2xl:w-2/3;
+}
+
+.blue-link {
+	@apply text-blue-500 underline transition-all hover:text-blue-600;
+}

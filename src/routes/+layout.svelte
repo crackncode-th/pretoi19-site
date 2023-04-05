@@ -2,14 +2,13 @@
 	import "$/app.scss";
 
 	import NavBar from "$components/layout/NavBar.svelte";
+	import Footer from "$components/layout/Footer.svelte";
 </script>
 
-<NavBar />
-<main class="min-h-[calc(100vh-18rem)] p-4">
-	<slot />
-</main>
-<footer class="mx-auto my-5 flex w-2/3 flex-col items-center justify-center">
-	<hr class="mb-5 w-full" />
-	<p>Crack 'n' Code Thailand</p>
-	<p>"เดือนนี้คุณทำโจทย์ Crack 'n' Code แล้วหรือยัง"</p>
-</footer>
+<div class="relative overflow-x-hidden">
+	<NavBar />
+	<main class="min-h-[calc(100vh-18rem)] p-4 lg:min-h-[calc(100vh-16.5rem)]">
+		<slot />
+	</main>
+	<Footer />
+</div>
