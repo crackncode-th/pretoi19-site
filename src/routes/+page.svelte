@@ -8,6 +8,7 @@
 	import _sponsors from "$data/sponsors.json";
 
 	import PrizeList from "$components/PrizeList.svelte";
+	import CountDown from "$components/CountDown.svelte";
 </script>
 
 <svelte:head>
@@ -32,8 +33,13 @@
 		</h2>
 	</CncText>
 
+	<FloatIn delay={200}>
+		<h3 class="topic">เหลือเวลาสมัครอีก</h3>
+		<CountDown />
+	</FloatIn>
+
 	<FloatIn delay={400}>
-		<div class="mb-6 mt-11 flex flex-col justify-center gap-5 sm:flex-row">
+		<div class="mb-6 mt-5 flex flex-col justify-center gap-5 sm:flex-row">
 			<RedButton href="/">Register</RedButton>
 		</div>
 	</FloatIn>
