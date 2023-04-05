@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"*.css": "tailwindcss",
+		"*.scss": "tailwindcss"
+	},
+	"scss.lint.unknownAtRules": "ignore"
+}
