@@ -6,6 +6,8 @@
 	import SponsorCard from "$components/elements/SponsorCard.svelte";
 
 	import _sponsors from "$data/sponsors.json";
+
+	import PrizeList from "$components/PrizeList.svelte";
 </script>
 
 <svelte:head>
@@ -40,10 +42,18 @@
 		<div class="mt-3 flex justify-center">
 			<hr class="w-3/4" />
 		</div>
-		<h3 class="topic my-5">Sponsors</h3>
+		<h3 class="topic mt-5">รางวัล</h3>
+		<PrizeList />
+	</FloatIn>
+
+	<FloatIn delay={800}>
+		<div class="mt-3 flex justify-center">
+			<hr class="w-3/4" />
+		</div>
+		<h3 class="topic mt-5">Sponsors</h3>
 		<div class="grid grid-cols-1 pt-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-			{#each _sponsors as sponsor, key}
-				<div class="flex flex-col items-center justify-center py-4 md:py-8">
+			{#each _sponsors as sponsor}
+				<div class="flex flex-col items-center justify-center py-4 md:py-6">
 					<SponsorCard href={sponsor.link}>
 						{sponsor.name}
 						<br />
