@@ -13,7 +13,8 @@ const config = {
 			"$/app.scss": path.resolve("src/app.scss"),
 			$components: path.resolve("src/components"),
 			$lib: path.resolve("src/lib"),
-			$styles: path.resolve("src/styles")
+			$styles: path.resolve("src/styles"),
+			$data: path.resolve("src/data")
 		}
 	}
 };
