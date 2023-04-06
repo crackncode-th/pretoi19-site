@@ -26,15 +26,22 @@
 	</CncText>
 
 	<CncText delay={0} clsx="mb-5" color="#F13830">
-		<h2>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dicta dolores quae laborum
-			nemo cumque labore animi illum, laudantium, quam facere distinctio fugiat doloremque. Saepe,
-			sed? Asperiores atque nesciunt animi?
-		</h2>
+		<h2>TOI ใกล้เข้ามาแล้ว อยากจะทดสอบฝีมือตัวเองใช่มั้ย คุณคิดว่าคุณพร้อมแค่ไหนกัน</h2>
 	</CncText>
 
 	<FloatIn delay={200}>
-		<h3 class="topic">เหลือเวลาสมัครอีก</h3>
+		<h3 class="topic my-3">การแข่งขัน Pre-TOI 19</h3>
+		<h2>
+			จะจัดขึ้นในวันที่ xx-xx พฤษภาคม 2566 ผ่านระบบ
+			<span class="blue-link"><a href="https://cms-dev.github.io/">CMS</a></span>
+		</h2>
+		<h2>
+			ซึ่งเป็นระบบเดียวกับที่ใช้ในการแข่งขันโอลิมปิกระดับชาติครั้งที่ 19 (TOI19) ที่จะมาถึงนี้
+		</h2>
+	</FloatIn>
+
+	<FloatIn delay={200}>
+		<h3 class="topic mt-5">เหลือเวลาสมัครอีก</h3>
 		<CountDown />
 	</FloatIn>
 

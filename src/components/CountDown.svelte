@@ -21,7 +21,7 @@
 	setInterval(updateTime, 1000);
 </script>
 
-<div class="flex justify-center font-bold md:text-xl lg:text-5xl">
+<div class="flex justify-center font-bold md:text-3xl lg:text-5xl">
 	<div class="flex flex-row">
 		<TimeCard>
 			{Math.floor(day_list[0] / 10)}
