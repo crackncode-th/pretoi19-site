@@ -24,14 +24,13 @@
 <nav class="app-width mx-auto mt-8 flex select-none flex-row items-center justify-between p-4">
 	<div class="left">
 		<a href="/" class="flex items-center transition-colors hover:text-neutral-300 lg:gap-3">
-			<div class="relative">
-				<img
-					class="scale-[.66] cursor-pointer lg:scale-100"
-					src="/logo.png"
-					width="150"
-					alt="CracknCode Logo"
-				/>
-			</div>
+			<img
+				class="scale-[.66] cursor-pointer lg:scale-100"
+				src="/cncxcodeblitz.png"
+				width="70"
+				alt="Crack 'n' Code x CodeBlitz Logo"
+			/>
+			<p class="ml-3 text-lg font-bold">CRACK 'N' CODE X CODEBLITZ</p>
 		</a>
 	</div>
 
