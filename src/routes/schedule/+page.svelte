@@ -12,43 +12,43 @@
 				</tr>
 			</thead>
 			<tr>
-				<td>xx เมษายน 2566</td>
-				<td>xx:xx</td>
+				<td>16 เมษายน 2566</td>
+				<td>09:00</td>
 				<td>เปิดรับสมัคร</td>
 			</tr>
 			<tr>
-				<td>xx พฤษภาคม 2566</td>
-				<td>xx:xx</td>
+				<td>10 พฤษภาคม 2566</td>
+				<td>23:59</td>
 				<td>ปิดรับสมัคร</td>
 			</tr>
 			<tr>
-				<td>xx พฤษภาคม 2566</td>
-				<td>xx:xx</td>
+				<td>11 - 12 พฤษภาคม 2566</td>
+				<td>20:00 - 18:00</td>
 				<td>ผู้เข้าแข่งขันทดสอบระบบ</td>
 			</tr>
 			<tr class="font-bold text-green-300">
-				<td>xx พฤษภาคม 2566</td>
-				<td>xx:xx - xx:xx</td>
+				<td>13 พฤษภาคม 2566</td>
+				<td>19:00 - 22:00</td>
 				<td>การแข่งขันวันที่ 1</td>
 			</tr>
 			<tr>
-				<td>xx พฤษภาคม 2566</td>
-				<td>xx:xx - xx:xx</td>
+				<td>13-14 พฤษภาคม 2566</td>
+				<td>22:30 - 15:00</td>
 				<td>Analysis Mode(Day 1)</td>
 			</tr>
 			<tr class="font-bold text-green-300">
-				<td>xx พฤษภาคม 2566</td>
-				<td>xx:xx - xx:xx</td>
+				<td>14 พฤษภาคม 2566</td>
+				<td>19:00 - 22:00</td>
 				<td>การแข่งขันวันที่ 2</td>
 			</tr>
 			<tr>
-				<td>xx พฤษภาคม 2566</td>
-				<td>xx:xx - xx:xx</td>
+				<td>14-15 พฤษภาคม 2566</td>
+				<td>22:30 - 15:00</td>
 				<td>Analysis Mode(Day 2)</td>
 			</tr>
 			<tr>
-				<td>xx พฤษภาคม 2566</td>
-				<td>xx:xx</td>
+				<td>20 พฤษภาคม 2566</td>
+				<td>19:00</td>
 				<td>ประกาศผลการแข่งขัน</td>
 			</tr>
 		</table>

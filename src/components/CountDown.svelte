@@ -1,7 +1,7 @@
 <script lang="ts">
 	import TimeCard from "$components/elements/TimeCard.svelte";
 
-	let wanted_time = new Date("2023-05-22T00:00:00+07:00").getTime();
+	let wanted_time = new Date("2023-05-10T23:59:59+07:00").getTime();
 	let current_time = new Date().getTime();
 	let time_diff = Math.max(0, wanted_time - current_time);
 	let day_list = getDayList(time_diff);

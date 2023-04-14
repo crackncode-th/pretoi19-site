@@ -18,7 +18,8 @@
 
 <main class="page">
 	<CncText delay={0} clsx="mb-10" color="#F13830">
-		<h1 class="page-title mt-6">Crack 'n' Code Pre TOI19</h1>
+		<h1 class="page-title mt-6">Crack 'n' Code x Code Blitz</h1>
+		<h1 class="page-title mt-2">Pre TOI19</h1>
 	</CncText>
 
 	<CncText delay={0} clsx="my-6" color="#101010">
@@ -32,7 +33,7 @@
 	<FloatIn delay={200}>
 		<h3 class="topic my-3">การแข่งขัน Pre-TOI 19</h3>
 		<h2>
-			จะจัดขึ้นในวันที่ xx-xx พฤษภาคม 2566 ผ่านระบบ
+			จะจัดขึ้นในวันที่ 15-16 พฤษภาคม 2566 ผ่านระบบ
 			<span class="blue-link"><a href="https://cms-dev.github.io/">CMS</a></span>
 		</h2>
 		<h2>
@@ -41,7 +42,7 @@
 	</FloatIn>
 
 	<FloatIn delay={200}>
-		<h3 class="topic mt-5">เหลือเวลาสมัครอีก</h3>
+		<h3 class="topic mb-3 mt-5">เหลือเวลาสมัครอีก</h3>
 		<CountDown />
 	</FloatIn>
 
@@ -57,6 +58,19 @@
 		</div>
 		<h3 class="topic mt-5">รางวัล</h3>
 		<PrizeList />
+	</FloatIn>
+
+	<FloatIn delay={800}>
+		<div class="mt-3 flex justify-center">
+			<hr class="w-3/4" />
+		</div>
+		<h3 class="topic mt-5">Powered by</h3>
+		<div>
+			<a href="https://web.facebook.com/xcodeblitz">
+				<img src="/codeblitz.png" alt="Code Blitz" class="mx-auto w-1/5" />
+				<p class="text-center text-2xl">Code Blitz</p>
+			</a>
+		</div>
 	</FloatIn>
 
 	<FloatIn delay={800}>
