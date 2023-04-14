@@ -12,13 +12,13 @@
 </script>
 
 <svelte:head>
-	<title>Crack 'n' Code x Code Blitz Pre TOI19</title>
+	<title>Crack 'n' Code x CodeBlitz Pre TOI19</title>
 	<meta name="description" content="Crack 'n' Code is online programming contest organizer" />
 </svelte:head>
 
 <main class="page">
 	<CncText delay={0} clsx="mb-10" color="#F13830">
-		<h1 class="page-title mt-6">Crack 'n' Code x Code Blitz</h1>
+		<h1 class="page-title mt-6">Crack 'n' Code x CodeBlitz</h1>
 		<h1 class="page-title mt-2">Pre TOI19</h1>
 	</CncText>
 
@@ -67,8 +67,8 @@
 		<h3 class="topic mt-5">Powered by</h3>
 		<div>
 			<a href="https://web.facebook.com/xcodeblitz" {...ext}>
-				<img src="/codeblitz.png" alt="Code Blitz" class="mx-auto w-1/5" />
-				<p class="text-center text-2xl">Code Blitz</p>
+				<img src="/codeblitz.png" alt="CodeBlitz" class="mx-auto w-1/5" />
+				<p class="text-center text-2xl">CodeBlitz</p>
 			</a>
 		</div>
 	</FloatIn>
