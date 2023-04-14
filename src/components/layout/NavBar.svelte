@@ -24,12 +24,14 @@
 <nav class="app-width mx-auto mt-8 flex select-none flex-row items-center justify-between p-4">
 	<div class="left">
 		<a href="/" class="flex items-center transition-colors hover:text-neutral-300 lg:gap-3">
-			<img
-				class="scale-[.66] cursor-pointer lg:scale-100"
-				src="/crackncode.webp"
-				width="60"
-				alt="CracknCode Logo"
-			/>
+			<div class="relative">
+				<img
+					class="scale-[.66] cursor-pointer lg:scale-100"
+					src="/logo.png"
+					width="150"
+					alt="CracknCode Logo"
+				/>
+			</div>
 		</a>
 	</div>
 
