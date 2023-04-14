@@ -33,7 +33,7 @@
 	<FloatIn delay={200}>
 		<h3 class="topic my-3">การแข่งขัน Pre-TOI19</h3>
 		<h2>
-			จะจัดขึ้นในวันที่ 15-16 พฤษภาคม 2566 ผ่านระบบ
+			จะจัดขึ้นในวันที่ 13-14 พฤษภาคม 2566 ผ่านระบบ
 			<span class="blue-link"><a href="https://cms-dev.github.io/" {...ext}>CMS</a></span>
 		</h2>
 		<h2>
