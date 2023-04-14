@@ -19,7 +19,7 @@
 			<p class="">|</p>
 		</div>
 		<div>
-			<a href="contact">
+			<a href="about">
 				<p class="">About</p>
 			</a>
 		</div>

@@ -1,9 +1,9 @@
 <script lang="ts">
-	// import CncLogo from "$components/animated/CncLogo.svelte";
 	import CncText from "$components/animated/CncText.svelte";
 	import FloatIn from "$components/animated/FloatIn.svelte";
 	import RedButton from "$components/elements/RedButton.svelte";
 	import SponsorCard from "$components/elements/SponsorCard.svelte";
+	import ext from "$lib/ext";
 
 	import _sponsors from "$data/sponsors.json";
 
@@ -34,7 +34,7 @@
 		<h3 class="topic my-3">การแข่งขัน Pre-TOI 19</h3>
 		<h2>
 			จะจัดขึ้นในวันที่ 15-16 พฤษภาคม 2566 ผ่านระบบ
-			<span class="blue-link"><a href="https://cms-dev.github.io/">CMS</a></span>
+			<span class="blue-link"><a href="https://cms-dev.github.io/" {...ext}>CMS</a></span>
 		</h2>
 		<h2>
 			ซึ่งเป็นระบบเดียวกับที่ใช้ในการแข่งขันโอลิมปิกระดับชาติครั้งที่ 19 (TOI19) ที่จะมาถึงนี้
@@ -66,7 +66,7 @@
 		</div>
 		<h3 class="topic mt-5">Powered by</h3>
 		<div>
-			<a href="https://web.facebook.com/xcodeblitz">
+			<a href="https://web.facebook.com/xcodeblitz" {...ext}>
 				<img src="/codeblitz.png" alt="Code Blitz" class="mx-auto w-1/5" />
 				<p class="text-center text-2xl">Code Blitz</p>
 			</a>
