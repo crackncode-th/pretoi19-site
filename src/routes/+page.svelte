@@ -17,20 +17,22 @@
 </svelte:head>
 
 <main class="page">
-	<CncText delay={0} clsx="mb-10" color="#F13830">
+	<section>
 		<h1 class="page-title mt-6">Crack 'n' Code x CodeBlitz</h1>
 		<h1 class="page-title mt-2">Pre TOI19</h1>
-	</CncText>
+	</section>
 
-	<CncText delay={0} clsx="my-6" color="#101010">
-		<div class="h-2 w-11 bg-red-600" />
-	</CncText>
+	<section>
+		<div class="my-3 flex justify-center">
+			<div class="h-2 w-11 bg-red-600" />
+		</div>
+	</section>
 
-	<CncText delay={0} clsx="mb-5" color="#F13830">
+	<section>
 		<h2>TOI ใกล้เข้ามาแล้ว อยากจะทดสอบฝีมือตัวเองใช่มั้ย คุณคิดว่าคุณพร้อมแค่ไหนกัน</h2>
-	</CncText>
+	</section>
 
-	<FloatIn delay={200}>
+	<section>
 		<h3 class="topic my-3">การแข่งขัน Pre-TOI19</h3>
 		<h2>
 			จะจัดขึ้นในวันที่ 13-14 พฤษภาคม 2566 ผ่านระบบ
@@ -39,28 +41,28 @@
 		<h2>
 			ซึ่งเป็นระบบเดียวกับที่ใช้ในการแข่งขันโอลิมปิกระดับชาติครั้งที่ 19 (TOI19) ที่จะมาถึงนี้
 		</h2>
-	</FloatIn>
+	</section>
 
-	<FloatIn delay={200}>
+	<section>
 		<h3 class="topic mb-3 mt-5">เหลือเวลาสมัครอีก</h3>
 		<CountDown />
-	</FloatIn>
+	</section>
 
-	<FloatIn delay={400}>
+	<section>
 		<div class="mb-6 mt-5 flex flex-col justify-center gap-5 sm:flex-row">
 			<RedButton href="https://forms.gle/QtSv4pD7e92WEhVCA">Register</RedButton>
 		</div>
-	</FloatIn>
+	</section>
 
-	<FloatIn delay={600}>
+	<section>
 		<div class="mt-3 flex justify-center">
 			<hr class="w-3/4" />
 		</div>
 		<h3 class="topic mt-5">รางวัล</h3>
 		<PrizeList />
-	</FloatIn>
+	</section>
 
-	<FloatIn delay={800}>
+	<section>
 		<div class="mt-3 flex justify-center">
 			<hr class="w-3/4" />
 		</div>
@@ -71,9 +73,9 @@
 				<p class="text-center text-2xl">CodeBlitz</p>
 			</a>
 		</div>
-	</FloatIn>
+	</section>
 
-	<FloatIn delay={800}>
+	<section>
 		<div class="mt-3 flex justify-center">
 			<hr class="w-3/4" />
 		</div>
@@ -89,7 +91,7 @@
 				</div>
 			{/each}
 		</div>
-	</FloatIn>
+	</section>
 </main>
 
 <style lang="postcss">
