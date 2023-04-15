@@ -1,6 +1,4 @@
 <script lang="ts">
-	import CncText from "$components/animated/CncText.svelte";
-	import FloatIn from "$components/animated/FloatIn.svelte";
 	import RedButton from "$components/elements/RedButton.svelte";
 	import SponsorCard from "$components/elements/SponsorCard.svelte";
 	import ext from "$lib/ext";
