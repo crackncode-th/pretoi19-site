@@ -46,7 +46,7 @@
 		<Card>
 			<div class="p-5">
 				<div class="flex justify-center">
-					<img src="/crackncode.webp" class="w-1/2" alt="first place prize" />
+					<img src="/pretoi-shirt.png" class="" alt="first place prize" />
 				</div>
 				<p class="pt-3 text-2xl">รางวัลอันดับที่ 1-16</p>
 				<p class="pt-2 text-xl text-gray-400">Prize Detail</p>
