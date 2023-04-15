@@ -48,7 +48,7 @@
 
 	<FloatIn delay={400}>
 		<div class="mb-6 mt-5 flex flex-col justify-center gap-5 sm:flex-row">
-			<RedButton href="/">Register</RedButton>
+			<RedButton href="https://forms.gle/QtSv4pD7e92WEhVCA">Register</RedButton>
 		</div>
 	</FloatIn>
 
