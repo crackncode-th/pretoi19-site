@@ -78,9 +78,9 @@
 			<hr class="w-3/4" />
 		</div>
 		<h3 class="topic mt-5">Sponsors</h3>
-		<div class="grid grid-cols-1 pt-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+		<div class="grid grid-cols-1 pt-4 sm:grid-cols-2 md:grid-cols-3">
 			{#each _sponsors as sponsor}
-				<div class="flex flex-col items-center justify-center py-4 md:py-6">
+				<div class="flex flex-col items-center justify-center gap-2 py-4 md:py-6">
 					<SponsorCard href={sponsor.link}>
 						{sponsor.name}
 						<br />
