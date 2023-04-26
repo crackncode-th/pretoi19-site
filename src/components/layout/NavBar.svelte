@@ -26,7 +26,7 @@
 		<a href="/" class="flex items-center transition-colors hover:text-neutral-300 lg:gap-3">
 			<img
 				class="scale-[.66] cursor-pointer lg:scale-100"
-				src="/cncxcodeblitz.png"
+				src="/cncxcodeblitz.webp"
 				width="70"
 				alt="Crack 'n' Code x CodeBlitz Logo"
 			/>

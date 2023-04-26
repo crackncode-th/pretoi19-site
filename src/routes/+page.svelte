@@ -8,7 +8,7 @@
 	import PrizeList from "$components/PrizeList.svelte";
 	import CountDown from "$components/CountDown.svelte";
 
-	import {serializeJsonLd, websiteSchema} from "$utils/json-ld";
+	import { serializeJsonLd, websiteSchema } from "$utils/json-ld";
 </script>
 
 <svelte:head>

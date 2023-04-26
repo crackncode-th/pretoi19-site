@@ -15,7 +15,7 @@ export const websiteSchema: WithContext<Event> = {
 		"@type": "Place",
 		name: "ผ่านระบบ CMS"
 	},
-	image: "https://pretoi19.crackncode.org/cncxcodeblitz.png",
+	image: "https://pretoi19.crackncode.org/cncxcodeblitz.webp",
 	description:
 		"การแข่งขัน TOI19 ใกล้เข้ามาแล้ว อยากจะทดสอบฝีมือตัวเองใช่มั้ย คุณคิดว่าคุณพร้อมแค่ไหนกัน",
 	url: "https://forms.gle/QtSv4pD7e92WEhVCA",
