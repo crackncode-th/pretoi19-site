@@ -7,11 +7,12 @@
 
 	import PrizeList from "$components/PrizeList.svelte";
 	import CountDown from "$components/CountDown.svelte";
+
+	import { serializeJsonLd, websiteSchema } from "$utils/json-ld";
 </script>
 
 <svelte:head>
-	<title>Crack 'n' Code x CodeBlitz Pre TOI19</title>
-	<meta name="description" content="Crack 'n' Code is online programming contest organizer" />
+	{@html serializeJsonLd(websiteSchema)}
 </svelte:head>
 
 <main class="page">
