@@ -9,7 +9,7 @@
 	<title>Crack 'n' Code x CodeBlitz Pre TOI19</title>
 	<meta
 		name="description"
-		content="การแข่งขัน Pre toi19 จัดโดย Crack 'n' Code และ CodeBlitz ในวันที่ 13-14 พฤษภาคม 2566 เวลา 19.00-22.00 น."
+		content="การแข่งขัน Pre TOI19 จัดโดย Crack 'n' Code และ CodeBlitz ในวันที่ 13-14 พฤษภาคม 2566 เวลา 19.00-22.00 น."
 	/>
 </svelte:head>
 
