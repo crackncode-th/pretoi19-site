@@ -8,7 +8,7 @@
 		<Card>
 			<div class="p-5">
 				<div class="flex justify-center">
-					<img src="/pretoi-shirt.png" class="" alt="first place prize" />
+					<img src="/pretoi-shirt.png" class="" alt="prize" />
 				</div>
 				<p class="pt-2 text-2xl">เสื้อ Crack 'n' Code X CodeBlitz</p>
 			</div>

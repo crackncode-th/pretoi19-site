@@ -1,12 +1,10 @@
 <script lang="ts">
-	import RedButton from "$components/elements/RedButton.svelte";
 	import SponsorCard from "$components/elements/SponsorCard.svelte";
 	import ext from "$lib/ext";
 
 	import _sponsors from "$data/sponsors.json";
 
 	import PrizeList from "$components/PrizeList.svelte";
-	import CountDown from "$components/CountDown.svelte";
 
 	import { serializeJsonLd, websiteSchema } from "$utils/json-ld";
 </script>
@@ -44,14 +42,19 @@
 
 	<section>
 		<h3 class="topic mb-3 mt-5">เหลือเวลาสมัครอีก</h3>
-		<CountDown />
+		<!--
+    <CountDown />
+    -->
+		<h2 class="mb-5 text-red-500">หมดเวลาการสมัคร</h2>
 	</section>
 
+	<!--
 	<section>
 		<div class="mb-6 mt-5 flex flex-col justify-center gap-5 sm:flex-row">
 			<RedButton href="https://forms.gle/QtSv4pD7e92WEhVCA">Register</RedButton>
 		</div>
 	</section>
+  -->
 
 	<section>
 		<div class="mt-3 flex justify-center">
