@@ -41,20 +41,8 @@
 	</section>
 
 	<section>
-		<h3 class="topic mb-3 mt-5">เหลือเวลาสมัครอีก</h3>
-		<!--
-    <CountDown />
-    -->
-		<h2 class="mb-5 text-red-500">หมดเวลาการสมัคร</h2>
+		<h2 class="my-5 font-bold text-red-500">หมดเวลาการสมัคร</h2>
 	</section>
-
-	<!--
-	<section>
-		<div class="mb-6 mt-5 flex flex-col justify-center gap-5 sm:flex-row">
-			<RedButton href="https://forms.gle/QtSv4pD7e92WEhVCA">Register</RedButton>
-		</div>
-	</section>
-  -->
 
 	<section>
 		<div class="mt-3 flex justify-center">
