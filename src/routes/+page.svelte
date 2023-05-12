@@ -1,5 +1,6 @@
 <script lang="ts">
 	import SponsorCard from "$components/elements/SponsorCard.svelte";
+	import RedButton from "$components/elements/RedButton.svelte";
 	import ext from "$lib/ext";
 
 	import _sponsors from "$data/sponsors.json";
@@ -41,7 +42,9 @@
 	</section>
 
 	<section>
-		<h2 class="my-5 font-bold text-red-500">หมดเวลาการสมัคร</h2>
+		<div class="mb-6 mt-5 flex flex-col justify-center gap-5 sm:flex-row">
+			<RedButton href="https:/cms.crackncode.org">เข้าสู่ระบบทดสอบ</RedButton>
+		</div>
 	</section>
 
 	<section>
