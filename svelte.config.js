@@ -15,7 +15,8 @@ const config = {
 			$lib: path.resolve("src/lib"),
 			$styles: path.resolve("src/styles"),
 			$data: path.resolve("src/data"),
-			$utils: path.resolve("src/utils")
+			$utils: path.resolve("src/utils"),
+			$icons: path.resolve("src/components/icons")
 		}
 	}
 };

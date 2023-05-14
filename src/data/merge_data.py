@@ -74,6 +74,8 @@ key_list = ['wordbuilder', 'busan', 'mineral', 'mangoes', 'oranges', 'tourist']
 with codecs.open('data.json', 'w', 'utf-8-sig') as f:
     f.write('[\n')
     for x in sorted_scores:
+        if x == 0:
+            continue
         for username in scores[x]:
             cnt += 1
             data[username]['rank'] = rank
@@ -83,6 +85,7 @@ with codecs.open('data.json', 'w', 'utf-8-sig') as f:
                 f.write('\t\t"{}": {},\n'.format(key, data[username][key]))
             f.write('\t\t"Day 1": {},\n'.format(data[username]['day 1']))
             f.write('\t\t"Day 2": {},\n'.format(data[username]['day 2']))
+            f.write('\t\t"Total": {},\n'.format(data[username]['total']))
             f.write('\t\t"Name": "{}",\n'.format(data[username]['name']))
             f.write('\t\t"Rank": {}\n'.format(data[username]['rank']))
             if cnt < 129:

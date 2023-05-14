@@ -43,7 +43,7 @@
 
 	<section>
 		<div class="mb-6 mt-5 flex flex-col justify-center gap-5 sm:flex-row">
-			<RedButton href="https://cms.crackncode.org">เข้าสู่ระบบทดสอบ</RedButton>
+			<RedButton href="/ranking">ผลคะแนนอย่างเป็นทางการ</RedButton>
 		</div>
 	</section>
 
