@@ -1,6 +1,7 @@
 import csv
+import codecs
 
-anon_list = [7, 26, 28, 34, 44, 45, 47, 54, 55, 63, 66, 67, 72, 76, 79, 84, 92, 94, 97, 101, 104, 110, 112, 116, 117, 120, 121, 122, 126, 127, 128, 129]
+# anon_list = [7, 26, 28, 34, 44, 45, 47, 54, 55, 63, 66, 67, 72, 76, 79, 84, 92, 94, 97, 101, 104, 110, 112, 116, 117, 120, 121, 122, 126, 127, 128, 129]
 
 data = dict()
 
@@ -13,10 +14,14 @@ def addData(fileName, key, idx, total):
 
             username = row[0]
 
+            '''
             if int(username.split('user_')[1]) not in anon_list:
                 data[username]['name'] = row[1].strip()
             else:
                 data[username]['name'] = ""
+            '''
+
+            data[username]['name'] = row[1].strip()
 
             for x in range(0, 3):
                 value = int(float(row[idx[x]]))
@@ -66,22 +71,23 @@ cnt = 0
 
 key_list = ['wordbuilder', 'busan', 'mineral', 'mangoes', 'oranges', 'tourist']
 
-print('[')
-for x in sorted_scores:
-    for username in scores[x]:
-        cnt += 1
-        data[username]['rank'] = rank
-        print('\t{')
-        print('\t\t"Username": "{}",'.format(username))
-        for key in key_list:
-            print('\t\t"{}": {},'.format(key, data[username][key]))
-        print('\t\t"Day 1": {},'.format(data[username]['day 1']))
-        print('\t\t"Day 2": {},'.format(data[username]['day 2']))
-        print('\t\t"Name": "{}",'.format(data[username]['name']))
-        print('\t\t"Rank": {}'.format(data[username]['rank']))
-        if cnt < 129:
-            print('\t},')
-        else:
-            print('\t}')
-    rank += len(scores[x])
-print(']')
+with codecs.open('data.json', 'w', 'utf-8-sig') as f:
+    f.write('[\n')
+    for x in sorted_scores:
+        for username in scores[x]:
+            cnt += 1
+            data[username]['rank'] = rank
+            f.write('\t{\n')
+            f.write('\t\t"Username": "{}",\n'.format(username))
+            for key in key_list:
+                f.write('\t\t"{}": {},\n'.format(key, data[username][key]))
+            f.write('\t\t"Day 1": {},\n'.format(data[username]['day 1']))
+            f.write('\t\t"Day 2": {},\n'.format(data[username]['day 2']))
+            f.write('\t\t"Name": "{}",\n'.format(data[username]['name']))
+            f.write('\t\t"Rank": {}\n'.format(data[username]['rank']))
+            if cnt < 129:
+                f.write('\t},\n')
+            else:
+                f.write('\t}\n')
+        rank += len(scores[x])
+    f.write(']')
