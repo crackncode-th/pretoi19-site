@@ -1,7 +1,7 @@
 import csv
 import codecs
 
-# anon_list = [7, 26, 28, 34, 44, 45, 47, 54, 55, 63, 66, 67, 72, 76, 79, 84, 92, 94, 97, 101, 104, 110, 112, 116, 117, 120, 121, 122, 126, 127, 128, 129]
+anon_list = [7, 26, 28, 34, 44, 45, 47, 54, 55, 63, 66, 67, 72, 76, 79, 84, 92, 94, 97, 101, 104, 110, 112, 116, 117, 120, 121, 122, 126, 127, 128, 129]
 
 data = dict()
 
@@ -45,6 +45,7 @@ for i in range(1, 129 + 1):
     new_row['day 2'] = 0
     new_row['total'] = 0
     new_row['rank'] = 0
+    new_row['anonymous'] = True if i in anon_list else False
     data[username] = new_row
 
 addData('ranking_day1.csv', ['wordbuilder', 'busan', 'mineral'], [2, 4, 6], "day 1")
@@ -53,6 +54,8 @@ addData('ranking_day2.csv', ['mangoes', 'oranges', 'tourist'], [2, 4, 6], "day 2
 scores = dict()
 
 for username in data.keys():
+    if data[username]['anonymous']:
+        continue
     if data[username]['total'] in scores.keys():
         scores[data[username]['total']].append(username)
     else:
@@ -87,7 +90,8 @@ with codecs.open('data.json', 'w', 'utf-8-sig') as f:
             f.write('\t\t"Day 2": {},\n'.format(data[username]['day 2']))
             f.write('\t\t"Total": {},\n'.format(data[username]['total']))
             f.write('\t\t"Name": "{}",\n'.format(data[username]['name']))
-            f.write('\t\t"Rank": {}\n'.format(data[username]['rank']))
+            f.write('\t\t"Rank": {},\n'.format(data[username]['rank']))
+            f.write('\t\t"Anonymous": {}\n'.format(1 if data[username]["anonymous"] == True else 0))
             if cnt < 129:
                 f.write('\t},\n')
             else:
